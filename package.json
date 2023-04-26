@@ -1,0 +1,22 @@
+{
+  "name": "a01-webserver",
+  "version": "1.0.0",
+  "description": "a01 COMP 426",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-haleygb.git"
+  },
+  "author": "haleygb",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-haleygb/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-haleygb#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
