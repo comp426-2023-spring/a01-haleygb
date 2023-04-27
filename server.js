@@ -26,7 +26,6 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
     console.error(err);
     return
 }
-console.log(data)
 read_data = data})
 
 
