@@ -26,7 +26,7 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
     console.error(err);
     return
 }
-read_data = data
+read_data = data})
 
 
 // Define a const `server` as an arrow function using http.createServer. 
@@ -48,7 +48,5 @@ const server = http.createServer((req, res) => {
 server.listen(port, 'localhost', () => {
     console.log(`Server listening on port ${port}`)
 })
-
-});
 
 // That's it! You're all done!
