@@ -20,13 +20,13 @@ const port = minimist_module.port || 3000
 
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
-read_data = ""
+read_data = null
 fs.readFile('./public/index.html', 'utf8', (err, data) => {
     if (err) {
     console.error(err);
     return
 }
-read_data = data})
+read_data = data
 
 
 // Define a const `server` as an arrow function using http.createServer. 
@@ -49,5 +49,6 @@ server.listen(port, 'localhost', () => {
     console.log(`Server listening on port ${port}`)
 })
 
+});
 
 // That's it! You're all done!
